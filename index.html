@@ -1,130 +1,213 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- Bootstrap CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-		<!-- External CSS -->
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-		<!-- Favicon -->
-  		<link rel="icon" type="image/png" href="./images/favicon.ico">
-		<title>Cris Bagotsay | Full Stack Web Developer</title>
-	</head>
-	<body>
-		<!-- Nav -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-		  	<div class="container-fluid">
-			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			      	<span class="navbar-toggler-icon"></span>
-			    </button>
-			    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			      	<div class="navbar-nav mx-auto d-flex gap-4 px-4">
-				        <a class="nav-link" href="#landing">Home</a>
-				        <a class="nav-link" href="#projects">My Projects</a>
-				        <a class="nav-link" href="#tools">Tools</a>
-				        <a class="nav-link" href="#contact">Contact</a>
-			      	</div>
-			    </div>
-		  	</div>
-		</nav>
 
-		<!-- Landing -->
-		<div class="container vh-100" id="landing">
-			<div class="row pt-5 p-md-5 mx-md-5">
-				<div class="col-md-8 col-lg-6 p-5 my-5 text-center mx-auto">
-					<div class="pt-5">
-						<img src="./images/crisbagotsay.jpeg" class="rounded-circle mb-4" width="200">
-					</div>
-					<h1 class="typing text-center ">Cris Bagotsay</h1>
-					<h4 id="title">Full Stack Web Developer</h4>
-					<p id="landing-text">I'm Cris, a Full Stack Web Developer who thrives on solving complex problems, whether it's optimizing front-end experiences or debugging code. I bring both analytical precision and creative thinking to every project.</p>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="./images/favicon.ico">
+	<title>Cris Bagotsay | Full Stack Web Developer</title>
+</head>
+
+<body>
+	<!-- Nav -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav mx-auto d-flex gap-4 px-4">
+					<a class="nav-link" href="#landing">Home</a>
+					<a class="nav-link" href="#projects">My Projects</a>
+					<a class="nav-link" href="#tools">Tools</a>
+					<a class="nav-link" href="#contact">Contact</a>
 				</div>
 			</div>
 		</div>
+	</nav>
+
+	<main>
+		<!-- Landing -->
+		<section class="container vh-100 d-flex justify-content-center align-items-center" id="landing">
+			<div class="row d-flex">
+				<div class="col-lg-6 p-3 p-sm-5 order-1 order-lg-0 d-flex flex-column justify-content-center gap-1">
+					<h1 class="typing">Cris Bagotsay</h1>
+					<h4 id="title">Full Stack Web Developer</h4>
+					<p id="landing-text">I'm Cris, a Full Stack Web Developer who thrives on solving
+						complex problems,
+						whether it's optimizing front-end experiences or debugging code. I bring both analytical
+						precision
+						and creative thinking to every project.</p>
+					<div class="d-flex gap-3 text-center">
+						<a class="cta-button" href="#projects">View my work</a>
+						<a class="cta-button" href="#contact">Let's connect</a>
+					</div>
+
+					<div class="d-flex gap-3 gap-sm-4 align-items-center pt-3">
+						<a href="" target="_blank">
+							<svg width="28" height="26" viewBox="0 0 28 26" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M21.9079 0.379883H26.1247L16.9121 10.9092L27.75 25.2373H19.264L12.6175 16.5474L5.01243 25.2373H0.79304L10.6468 13.975L0.25 0.379883H8.95139L14.9592 8.3228L21.9079 0.379883ZM20.4279 22.7134H22.7645L7.68174 2.7713H5.17433L20.4279 22.7134Z"
+									fill="#9F9FA9" />
+							</svg>
+						</a>
+						<a href="">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M15.0124 0C6.71094 0 0 6.76041 0 15.124C0 21.8094 4.29993 27.4685 10.2651 29.4714C11.0109 29.622 11.284 29.146 11.284 28.7456C11.284 28.395 11.2595 27.1931 11.2595 25.9409C7.08337 26.8425 6.21374 24.138 6.21374 24.138C5.54261 22.3853 4.54822 21.9348 4.54822 21.9348C3.18139 21.0083 4.64778 21.0083 4.64778 21.0083C6.16396 21.1085 6.95953 22.5607 6.95953 22.5607C8.30148 24.8642 10.4639 24.2133 11.3338 23.8126C11.458 22.836 11.8559 22.16 12.2784 21.7845C8.94771 21.4339 5.44336 20.1319 5.44336 14.3225C5.44336 12.6699 6.0395 11.3178 6.98412 10.2663C6.83508 9.89079 6.31299 8.33804 7.13346 6.25983C7.13346 6.25983 8.40104 5.85912 11.2592 7.81227C12.4828 7.48121 13.7448 7.3128 15.0124 7.31138C16.28 7.31138 17.5721 7.48685 18.7654 7.81227C21.6238 5.85912 22.8914 6.25983 22.8914 6.25983C23.7118 8.33804 23.1894 9.89079 23.0404 10.2663C24.0099 11.3178 24.5815 12.6699 24.5815 14.3225C24.5815 20.1319 21.0771 21.4087 17.7215 21.7845C18.2685 22.2602 18.7405 23.1615 18.7405 24.5888C18.7405 26.617 18.7159 28.2447 18.7159 28.7453C18.7159 29.146 18.9894 29.622 19.7349 29.4717C25.7 27.4682 29.9999 21.8094 29.9999 15.124C30.0245 6.76041 23.289 0 15.0124 0Z"
+									fill="#9F9FA9" />
+							</svg>
+						</a>
+						<a href="">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15ZM15.5375 11.0737C14.0786 11.6805 11.1627 12.9365 6.78987 14.8417C6.07979 15.124 5.70782 15.4003 5.67396 15.6704C5.61673 16.1269 6.18839 16.3066 6.96684 16.5514C7.07273 16.5847 7.18244 16.6192 7.29492 16.6558C8.0608 16.9047 9.09103 17.196 9.62661 17.2075C10.1124 17.218 10.6547 17.0177 11.2533 16.6067C15.3389 13.8488 17.448 12.4548 17.5804 12.4247C17.6738 12.4035 17.8032 12.3769 17.891 12.4548C17.9787 12.5328 17.97 12.6804 17.9608 12.72C17.9041 12.9614 15.6602 15.0476 14.4989 16.1272C14.1369 16.4638 13.8801 16.7025 13.8276 16.757C13.71 16.8792 13.5902 16.9947 13.475 17.1058C12.7635 17.7917 12.2299 18.306 13.5045 19.146C14.1171 19.5496 14.6072 19.8834 15.0962 20.2164C15.6302 20.5801 16.1629 20.9428 16.852 21.3946C17.0276 21.5097 17.1953 21.6292 17.3586 21.7457C17.9801 22.1887 18.5384 22.5868 19.2282 22.5233C19.6291 22.4864 20.0431 22.1095 20.2533 20.9854C20.7503 18.3289 21.727 12.5731 21.9528 10.2012C21.9726 9.99341 21.9477 9.72746 21.9277 9.61072C21.9077 9.49397 21.866 9.32763 21.7142 9.2045C21.5345 9.05867 21.257 9.02792 21.133 9.0301C20.5688 9.04004 19.7032 9.34102 15.5375 11.0737Z"
+									fill="#9F9FA9" />
+							</svg>
+						</a>
+						<a href="" target="_blank">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M27.7793 0H2.21484C0.990234 0 0 0.966797 0 2.16211V27.832C0 29.0273 0.990234 30 2.21484 30H27.7793C29.0039 30 30 29.0273 30 27.8379V2.16211C30 0.966797 29.0039 0 27.7793 0ZM8.90039 25.5645H4.44727V11.2441H8.90039V25.5645ZM6.67383 9.29297C5.24414 9.29297 4.08984 8.13867 4.08984 6.71484C4.08984 5.29102 5.24414 4.13672 6.67383 4.13672C8.09766 4.13672 9.25195 5.29102 9.25195 6.71484C9.25195 8.13281 8.09766 9.29297 6.67383 9.29297ZM25.5645 25.5645H21.1172V18.6035C21.1172 16.9453 21.0879 14.8066 18.8027 14.8066C16.4883 14.8066 16.1367 16.6172 16.1367 18.4863V25.5645H11.6953V11.2441H15.9609V13.2012H16.0195C16.6113 12.0762 18.0645 10.8867 20.2266 10.8867C24.7324 10.8867 25.5645 13.8516 25.5645 17.707V25.5645V25.5645Z"
+									fill="#9F9FA9" />
+							</svg>
+						</a>
+
+
+
+
+
+
+					</div>
+				</div>
+				<div class="col-lg-6 text-center px-5 py-3 p-md-5 order-0 order-lg-1 mt-5 mt-sm-0">
+					<div id="landing-img">
+						<img src="./images/crisbagotsay.jpeg" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<!-- Projects -->
-		<div class="container" id="projects">
+		<section class="container pt-5" id="projects">
 			<div class="row p-3 p-md-5">
 				<div class="text-center mx-auto">
-					<h1 class="pt-md-3">My Projects</h1>
+					<h1 id="section-title" class="pt-md-3">My Projects</h1>
+					<p id="section-text">Things I've built to solve problems explore ideas, and grow as a developer.</p>
 					<div class="d-flex justify-content-center my-5 gap-3 gap-md-5 flex-wrap">
 						<div class="card col-11 col-md-5 col-lg-3 bg-transparent text-white mb-4 mb-md-0">
-						  <img src="./images/documentation.png" class="card-img-top p-5">
-						  <div class="card-body">
-						    <h5 class="card-title">E-commerce API Documentation</h5>
-						    <p class="card-text"><em>Dynamic E-Commerce Workflow Management</em>. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>
-						  </div>
+							<img src="./images/documentation.png" class="card-img-top p-5">
+							<div class="card-body">
+								<h5 class="card-title">E-commerce API Documentation</h5>
+								<p class="card-text"><em>Dynamic E-Commerce Workflow Management</em>. The system
+									features
+									dynamic routes for order processing, real-time inventory updates, and secure user
+									authentication. It also supports seamless automated order reporting and
+									comprehensive
+									product management. Documented Backend API published publicly using Postman.</p>
+							</div>
 						</div>
 
 						<div class="card col-11 col-md-5 col-lg-3 bg-transparent text-white mb-4 mb-md-0">
-						  <img src="./images/online-course.png" class="card-img-top p-5">
-						  <div class="card-body">
-						    <h5 class="card-title">Course Booking App</h5>
-						    <p class="card-text">A MERN-stack course enrollment system featuring use registration, authentication, and profile management. Autheticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.</p>
-						  </div>
+							<img src="./images/online-course.png" class="card-img-top p-5">
+							<div class="card-body">
+								<h5 class="card-title">Course Booking App</h5>
+								<p class="card-text">A MERN-stack course enrollment system featuring use registration,
+									authentication, and profile management. Autheticated users can create, update,
+									archive,
+									and activate courses. The platform also allows users to browse available courses and
+									enroll seamlessly.</p>
+							</div>
 						</div>
 
 						<div class="card col-11 col-md-5 col-lg-3 bg-transparent text-white mb-4 mb-md-0">
-						  <img src="./images/shopping.png" class="card-img-top p-5">
-						  <div class="card-body">
-						    <h5 class="card-title">E-commerce App</h5>
-						    <p class="card-text"><em>MERN E-Commerce Platform</em>. The platform features dynamic product catalog with filterting and sorting real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.</p>
-						  </div>
+							<img src="./images/shopping.png" class="card-img-top p-5">
+							<div class="card-body">
+								<h5 class="card-title">E-commerce App</h5>
+								<p class="card-text"><em>MERN E-Commerce Platform</em>. The platform features dynamic
+									product catalog with filterting and sorting real-time search, seamless cart updates,
+									secure checkout, and a comprehensive admin dashboard with real-time analytics and
+									user
+									management capabilities.</p>
+							</div>
 						</div>
 
 						<div class="card col-11 col-md-5 col-lg-3 bg-transparent text-white mb-4 mb-md-0">
-						  <img src="./images/airline-ticket.png" class="card-img-top p-5">
-						  <div class="card-body">
-						    <h5 class="card-title">Airline Booking System Mockup</h5>
-						    <p class="card-text"><em>Side Project:</em> Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.</p>
-						  </div>
+							<img src="./images/airline-ticket.png" class="card-img-top p-5">
+							<div class="card-body">
+								<h5 class="card-title">Airline Booking System Mockup</h5>
+								<p class="card-text"><em>Side Project:</em> Conceptual design showcasing an intuitive UI
+									for
+									flight search, seat selection, and booking confirmation, focusing on user experience
+									and
+									workflow efficiency.</p>
+							</div>
 						</div>
 
 						<div class="card col-11 col-md-5 col-lg-3 bg-transparent text-white mb-4 mb-md-0">
-						  <img src="./images/airline.png" class="card-img-top p-5">
-						  <div class="card-body">
-						    <h5 class="card-title">Airline Booking System Prototype</h5>
-						    <p class="card-text"><em>Side Project:</em> Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.</p>
-						  </div>
+							<img src="./images/airline.png" class="card-img-top p-5">
+							<div class="card-body">
+								<h5 class="card-title">Airline Booking System Prototype</h5>
+								<p class="card-text"><em>Side Project:</em> Interactive prototype simulating end-to-end
+									airline booking functionalities, including flight search, reservation, payment
+									processing, and real-time ticket management.</p>
+							</div>
 						</div>
 
 						<div class="card col-11 col-md-5 col-lg-3 bg-transparent text-white mb-4 mb-md-0">
-						  <img src="./images/short-course-img-1.png" class="card-img-top p-5">
-						  <div class="card-body">
-						    <h5 class="card-title">Short Courses Captone</h5>
-						    <p class="card-text">Placeholder for your Short courses capstone project.</p>
-						  </div>
+							<img src="./images/short-course-img-1.png" class="card-img-top p-5">
+							<div class="card-body">
+								<h5 class="card-title">Short Courses Captone</h5>
+								<p class="card-text">Placeholder for your Short courses capstone project.</p>
+							</div>
 						</div>
 
 						<div class="card col-11 col-md-5 col-lg-3 bg-transparent text-white mb-4 mb-md-0">
-						  <img src="./images/short-course-img-2.png" class="card-img-top p-5">
-						  <div class="card-body">
-						    <h5 class="card-title">Short Courses Captone</h5>
-						    <p class="card-text">Placeholder for your Short courses capstone project.</p>
-						  </div>
+							<img src="./images/short-course-img-2.png" class="card-img-top p-5">
+							<div class="card-body">
+								<h5 class="card-title">Short Courses Captone</h5>
+								<p class="card-text">Placeholder for your Short courses capstone project.</p>
+							</div>
 						</div>
 
 						<div class="card col-11 col-md-5 col-lg-3 bg-transparent text-white mb-4 mb-md-0">
-						  <img src="./images/short-course-img-3.png" class="card-img-top p-5">
-						  <div class="card-body">
-						    <h5 class="card-title">Short Courses Captone</h5>
-						    <p class="card-text">Placeholder for your Short courses capstone project.</p>
-						  </div>
+							<img src="./images/short-course-img-3.png" class="card-img-top p-5">
+							<div class="card-body">
+								<h5 class="card-title">Short Courses Captone</h5>
+								<p class="card-text">Placeholder for your Short courses capstone project.</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- Tools -->
-		<div class="container min-vh-100" id="tools">
-			<div class="row p-5 text-center">
-				<h1 class="mb-5 pt-md-3">Tools</h1>
+		<section class="container min-vh-100 p-3 p-md-5" id="tools">
+			<div class="row text-center mt-5">
+				<h1 id="section-title" class="pt-md-5">Tools</h1>
+				<p id="section-text" class="mb-5 text-center">
+					This is a collection of the technologies I actually use—whether I'm building something meaningful
+					experimenting with ideas, or just tinkering
+					because it's fun.
+				</p>
 				<div class="col-md-4 tools-title">
 					<h3 class="mb-3">Programming Languages</h3>
 					<div class="d-flex gap-2 flex-wrap justify-content-center">
@@ -179,34 +262,34 @@
 								Tailwind
 							</span>
 						</div>
-						
-					</div>
-					
-					
-					<div class="pt-md-5">
-						<h3 class="mb-3 pt-md-5">Back End</h3>
-						
-						<div class="d-flex gap-2 flex-wrap justify-content-center">
-						<span class="rounded-pill py-2 px-3 d-flex gap-2 tool" id="nodejs">
-							<img src="./images/nodejs.png" width="24" height="24">
-							Node.js
-						</span>
-						<span class="rounded-pill py-2 px-3 d-flex gap-2 " id="aws">
-							<img src="./images/aws.png" width="24" height="24">
-							AWS Cloud
-						</span>
-						<span class="rounded-pill py-2 px-3 d-flex gap-2 tool" id="mongodb">
-							<img src="./images/mongodb.png" width="24" height="24">
-							MongoDB
-						</span>
-						<span class="rounded-pill py-2 px-3 d-flex gap-2 tool" id="serverless">
-							<img src="./images/serverless.png" width="24" height="24">
-							Serverless Framework
-						</span>
-					</div>
 
 					</div>
-					
+
+
+					<div class="pt-md-5">
+						<h3 class="mb-3 pt-md-5">Back End</h3>
+
+						<div class="d-flex gap-2 flex-wrap justify-content-center">
+							<span class="rounded-pill py-2 px-3 d-flex gap-2 tool" id="nodejs">
+								<img src="./images/nodejs.png" width="24" height="24">
+								Node.js
+							</span>
+							<span class="rounded-pill py-2 px-3 d-flex gap-2 " id="aws">
+								<img src="./images/aws.png" width="24" height="24">
+								AWS Cloud
+							</span>
+							<span class="rounded-pill py-2 px-3 d-flex gap-2 tool" id="mongodb">
+								<img src="./images/mongodb.png" width="24" height="24">
+								MongoDB
+							</span>
+							<span class="rounded-pill py-2 px-3 d-flex gap-2 tool" id="serverless">
+								<img src="./images/serverless.png" width="24" height="24">
+								Serverless Framework
+							</span>
+						</div>
+
+					</div>
+
 				</div>
 				<div class="col-md-4 tools-title">
 					<h3 class="mt-5 mb-3 mt-md-0">Other Tools</h3>
@@ -230,35 +313,37 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- Contact -->
-		<div class="container min-vh-75" id="contact">
+		<section class="container min-vh-75" id="contact">
 			<div class="row p-5 gy-5 mb-5">
-				<h1 class="text-center mb-5">Contact</h1>
+				<h1 id="section-title" class="text-center">Contact</h1>
+				<p id="section-text" class="text-center mt-0">
+					Reach out and let's build something amazing together.
+				</p>
 				<div class="d-none d-md-block col-md-6">
-				    <iframe 
-				        class="w-100 h-100"
-				        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0920324094727!2d120.99194517587429!3d14.593831377240873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9f0eaaaaaab%3A0x5c42f0e62292b4b4!2sMalaca%C3%B1ang%20Palace!5e0!3m2!1sen!2sph!4v1759280852486!5m2!1sen!2sph" 
-				        style="border:0;" 
-				        allowfullscreen 
-				        loading="lazy" 
-				        referrerpolicy="no-referrer-when-downgrade">
-				    </iframe>
+					<iframe class="w-100 h-100"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0920324094727!2d120.99194517587429!3d14.593831377240873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9f0eaaaaaab%3A0x5c42f0e62292b4b4!2sMalaca%C3%B1ang%20Palace!5e0!3m2!1sen!2sph!4v1759280852486!5m2!1sen!2sph"
+						allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+					</iframe>
 				</div>
 				<div class="col-md-5 mx-auto">
 					<form class="d-grid gap-3">
 						<div class="mb-3">
-						  	<label for="name" class="form-label">Name</label>
-						  	<input type="name" class="form-control" id="name" placeholder="Enter full name" autocomplete>
+							<label for="name" class="form-label">Name</label>
+							<input type="name" class="form-control" id="name" placeholder="Enter full name"
+								autocomplete>
 						</div>
 						<div class="mb-3">
-						  	<label for="email" class="form-label">Email address</label>
-						  	<input type="email" class="form-control" id="email" placeholder="Enter valid email" autocomplete>
+							<label for="email" class="form-label">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="Enter valid email"
+								autocomplete>
 						</div>
 						<div class="mb-3">
-						  	<label for="message" class="form-label">Example textarea</label>
-						  	<textarea class="form-control" id="message" rows="6" placeholder="Type in your message"></textarea>
+							<label for="message" class="form-label">Example textarea</label>
+							<textarea class="form-control" id="message" rows="6"
+								placeholder="Type in your message"></textarea>
 						</div>
 						<div class="d-flex align-items-center">
 							<div class="d-flex gap-2">
@@ -272,41 +357,46 @@
 									<img src="./images/github.png" width="32" height="32">
 								</a>
 							</div>
-							<button type="submit" class="btn ms-auto px-4 text-white border" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+							<button type="submit" class="btn ms-auto px-4 text-white border" data-bs-toggle="modal"
+								data-bs-target="#exampleModal">Submit</button>
 						</div>
 					</form>
 				</div>
 			</div>
+		</section>
+	</main>
+
+
+	<!-- Footer -->
+	<footer class="text-secondary text-center bg-dark py-2">
+		<p>Cris Bagotsay</p>
+		<p>Full Stack Web Developer</p>
+		<p>&copy; All rights reserved 2025</p>
+	</footer>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Thank you for your message</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					Let me get back to you and let's build exciting things together!
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
 		</div>
+	</div>
 
-		<!-- Footer -->
-		<footer class="text-secondary text-center bg-dark py-2" >
-			<p>Cris Bagotsay</p>
-			<p>Full Stack Web Developer</p>
-			<p>&copy; All rights reserved 2025</p>
-		</footer>
+	<!-- Bootstrap js bundle -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
 
-		<!-- Modal -->
-		<!-- Modal -->
-		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		  	<div class="modal-dialog">
-			    <div class="modal-content">
-			      	<div class="modal-header">
-			        	<h5 class="modal-title" id="exampleModalLabel">Thank you for your message</h5>
-			        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			      	</div>
-			      	<div class="modal-body">
-			        Let me get back to you and let's build exciting things together!
-			      	</div>
-			      	<div class="modal-footer">
-			        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-			      	</div>
-			    </div>
-		  	</div>
-		</div>
+</body>
 
-		<!-- Bootstrap js bundle -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-	</body>
 </html>
